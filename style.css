@@ -1,0 +1,42 @@
+#title img {
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+svg {
+  fill: #fff;
+  height: 40px;
+  margin-top: 20px;
+  white-space: nowrap;
+}
+
+#title #name {
+  transition: color 0.3s ease-in;
+}
+
+#title #name:hover {
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  #title {
+    width: auto !important;
+  }
+}
+@media (max-width: 600px) {
+  #title {
+    width: auto !important;
+  }
+  #title img {
+    width: 150px !important;
+  }
+}
+@media (max-width: 400px) {
+  #title {
+    width: auto !important;
+  }
+  #title img {
+    width: 120px !important;
+  }
+}

@@ -51,7 +51,7 @@ body {
   width: 200px;
   background-color: white;
   border-radius: 50%;
-  background-image: url("/frontend/assets/ppfp.jpg");
+  background-image: url("/assets/ppfp.jpg");
   background-size: cover;
 }
 .pfpBox:hover {
@@ -59,7 +59,7 @@ body {
   width: 200px;
   background-color: white;
   border-radius: 50%;
-  background-image: url("/frontend/assets/pfp.jpg");
+  background-image: url("/assets/pfp.jpg");
   background-size: cover;
 }
 

@@ -1,0 +1,160 @@
+/* ---- reset ---- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.name-pfp-box {
+  display: inline-block;
+}
+
+.name {
+  display: inline-block;
+  color: #fff;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  padding: 0px 40px 0px 40px;
+  cursor: pointer;
+}
+
+.bio {
+  display: block;
+  font-family: "lato";
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.pfpBox {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+  background-image: url("/frontend/assets/ppfp.jpg");
+  background-size: cover;
+}
+.pfpBox:hover {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+  background-image: url("/frontend/assets/pfp.jpg");
+  background-size: cover;
+}
+
+.pfp {
+  display: flex;
+  justify-content: center;
+}
+
+/* icons */
+
+.social-icons {
+  position: absolute;
+  top: 10vh;
+}
+
+.social-icons svg {
+  fill: #fff;
+  width: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+.ok {
+  position: absolute;
+}
+/* Tech Stack */
+/*
+.stack {
+  position: absolute;
+  height: 150vh;
+  color: #fff;
+  top: 110vh;
+  right: 0;
+  left: 0;
+  text-align: start;
+}
+
+.heading h1 {
+  font-family: "Inconsolata";
+}
+
+.stak-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* responsive */
+
+@media (max-width: 748px) {
+  .social-icons svg {
+    max-width: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .name {
+    font-size: 50px;
+  }
+  .pfpBox {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+@media (max-width: 380px) {
+  .pfpBox {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+@media (max-width: 350px) {
+  .pfpBox {
+    height: 120px;
+    width: 120px;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .social-icons svg {
+    max-width: 20px;
+  }
+}
